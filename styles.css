@@ -1,0 +1,61 @@
+
+body
+{
+    background-color: rgb(55,55,60);
+    color: white;
+}
+h1
+{
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(25,25,25);
+}
+p
+{
+    background-color: rgb(40,40,45);
+    margin-bottom: 0px;
+}
+a
+{
+    color: rgb(200,200,200);
+}
+.linkButtons
+{
+    margin: 10px;
+}
+.btn-primary
+{
+    background-color: rgb(40,40,40);
+    margin: 5px;
+    border-color: rgb(30,30,30);
+}
+.btn-primary:hover
+{
+    background-color: rgb(60,60,60);
+    border-color: rgb(50,50,50);
+}
+.btn-primary:focus
+{
+    background-color: rgb(60,60,60);
+    outline: none;
+    
+}
+.navbar
+{
+    background-color: rgb(50,50,55);
+}
+
+.card-body
+{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(40,40,40)
+}
+
+.card-footer
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(50,50,50)
+}
