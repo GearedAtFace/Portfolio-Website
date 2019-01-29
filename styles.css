@@ -40,6 +40,11 @@ a
     outline: none;
     
 }
+.btn-primary:visited
+{
+    background-color: rgb(70,70,70);
+    outline: none;   
+}
 .navbar
 {
     background-color: rgb(50,50,55);
