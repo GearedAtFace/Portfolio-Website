@@ -61,18 +61,34 @@ a
     color: white;
 }
 
-.card-body
+.card
 {
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(20,20,20)
+}
+
+.card-header
+{
+    margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: rgb(40,40,40)
+}
+
+.card-body
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(60,60,60)
 }
 
 .card-footer
 {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 5px;
     background-color: rgb(50,50,50)
 }
 
