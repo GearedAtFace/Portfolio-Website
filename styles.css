@@ -104,3 +104,9 @@ a
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,255,255);
 } 
+
+.center{
+ float:none;
+ margin-left:auto;
+ margin-right:auto;
+}

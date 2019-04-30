@@ -19,41 +19,46 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
     <nav class="navbar navbar-expand-sm fixed-top border-bottom">
-    <!-- Links -->
-    <ul class="navbar-nav">
-        <div class="dropdown">   
-        <a href="index.html" role="button" class="btn btn-primary">Home</a>
+    
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <div class="dropdown">   
+                    <a href="index.html" role="button" class="btn btn-primary">Home</a>
+                </div>
+                <div class="dropdown">        
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="school-projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        School Projects
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="school-projects">
+                        <a class="dropdown-item" href="School_Projects.html">Dungeon Mungeon</a>
+                        <a class="dropdown-item" href="School_Projects.html">Slime Mine</a>
+                        <a class="dropdown-item" href="School_Projects.html">Broken Vessel</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="personal-projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Personal Projects
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="personal-projects">
+                        <a class="dropdown-item" href="Personal_Projects.html">Planet Traversal</a>
+                        <a class="dropdown-item" href="Personal_Projects.html">Explore The Marsh</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="about-me" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Me
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="about-me">
+                        <a class="dropdown-item" href="About_Me.html">Education</a>
+                        <a class="dropdown-item" href="About_Me.html">Contact Me</a>
+                    </div>
+                </div>
+            </ul>
         </div>
-        <div class="dropdown">        
-            <button class="btn btn-primary dropdown-toggle" type="button" id="school-projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                School Projects
-            </button>
-            <div class="dropdown-menu" aria-labelledby="school-projects">
-                <a class="dropdown-item" href="School_Projects.html">Dungeon Mungeon</a>
-                <a class="dropdown-item" href="School_Projects.html">Slime Mine</a>
-                <a class="dropdown-item" href="School_Projects.html">Broken Vessel</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="personal-projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Personal Projects
-            </button>
-            <div class="dropdown-menu" aria-labelledby="personal-projects">
-                <a class="dropdown-item" href="Personal_Projects.html">Planet Traversal</a>
-                <a class="dropdown-item" href="Personal_Projects.html">Explore The Marsh</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="about-me" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About Me
-            </button>
-            <div class="dropdown-menu" aria-labelledby="about-me">
-                <a class="dropdown-item" href="About_Me.html">Education</a>
-                <a class="dropdown-item" href="About_Me.html">Contact Me</a>
-            </div>
-        </div>
-    </ul>
-
     </nav> 
     <br>
     <br>
