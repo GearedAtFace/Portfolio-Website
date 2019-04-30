@@ -18,7 +18,7 @@
     <title>Connor Fahie's Portfolio</title>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
-    <nav class="navbar navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-expand-sm fixed-top border-bottom">
     <!-- Links -->
     <ul class="navbar-nav">
         <div class="dropdown">   
@@ -39,7 +39,7 @@
                 Personal Projects
             </button>
             <div class="dropdown-menu" aria-labelledby="personal-projects">
-                <a class="dropdown-item" href="Personal_Projects.html">Unnamed Soulslike</a>
+                <a class="dropdown-item" href="Personal_Projects.html">Planet Traversal</a>
                 <a class="dropdown-item" href="Personal_Projects.html">Explore The Marsh</a>
             </div>
         </div>
@@ -49,12 +49,53 @@
             </button>
             <div class="dropdown-menu" aria-labelledby="about-me">
                 <a class="dropdown-item" href="About_Me.html">Education</a>
-                <a class="dropdown-item" href="About_Me.html">Work History</a>
-                <a class="dropdown-item" href="About_Me.html">General</a>
+                <a class="dropdown-item" href="About_Me.html">Contact Me</a>
             </div>
         </div>
     </ul>
+
     </nav> 
     <br>
     <br>
     <h1 class="display-4 text-center">My Personal Projects</h1>
+    
+    <div class="text-center">
+                <div class="card-footer">
+                    <div class="card">
+                        <div class="card-header"> 
+                            <h4>Planet Traversal</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="PlanetTraversal.png" class="img-fluid">
+                            <br> <br>
+                            <div class="text-justify"> &nbsp &nbsp &nbsp &nbsp Planet traversal is a project of mine where I wrote my own physics system and implemented it into a variation of a Lunar Lander game. Instead of the goal being to simply land on a single planet using limited fuel you start in orbit of a planet and have to travel to other planets where you can land and refuel to again travel to yet another planet. This project is still a work in progress but the goal will either be to reach a home planet or you gain score as you succesfully land on larger or further planets.</div>
+                        </div>
+                        <div class="card-footer text-left">
+                            <a href="Personal_Projects.html" role="button" class="btn btn-primary col-lg-8">More</a>                           
+                            <span class="badge badge-secondary">MonoGame</span>
+                            <span class="badge badge-secondary">C#</span>
+                            <span class="badge badge-secondary">Physics</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header"> 
+                            <h4>Explore The Marsh</h4>
+                        </div>
+                        <div class="card-body">
+                            <div align="center" class="embed-responsive embed-responsive-16by9">
+                                <video autoplay loop class="embed-responsive-item">
+                                    <source src="ExploreTheMarsh.mp4" type="video/mp4">
+                                </video>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="text-justify">&nbsp &nbsp &nbsp &nbsp This project was created during a game jam with the theme of arcade. I worked on it over 48 hours with two other friends. The original idea was a game similar to the old Namco arcade game, Bosconian, but with a procedurally generated map.</div>
+                        </div>
+                        <div class="card-footer text-left">
+                            <a href="Personal_Projects.html" role="button" class="btn btn-primary col-lg-8">More</a>
+                            <span class="badge badge-secondary">Unity</span>
+                            <span class="badge badge-secondary">C#</span>
+                            <span class="badge badge-secondary">Procedural Generation</span>
+                        </div>
+                    </div>
+            </div>
