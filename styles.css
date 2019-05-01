@@ -8,7 +8,7 @@ h1
 {
     padding: 10px;
     margin-bottom: 0px;
-    background-color: rgb(25,25,25);
+    background-color: rgb(20,20,20);
 }
 p
 {
@@ -40,6 +40,12 @@ a
     outline: none;
     
 }
+
+.customDisabled
+{
+    background-color: rgb(70,70,70);
+}
+
 .navbar
 {
     background-color: rgb(40,40,40);
@@ -109,4 +115,28 @@ a
  float:none;
  margin-left:auto;
  margin-right:auto;
+}
+
+.float{
+ float:none;
+}
+
+a[href$=".pdf"]{
+	background-image: url(PDFIcon.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left: 128px;
+	height:128px;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+a[href$=".docx"]{
+	background-image: url(WordIcon.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left: 128px;
+	height:128px;
+	display: inline-block;
+	padding-top: 10px;
 }
